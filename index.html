@@ -1,7 +1,179 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE htmll>
+<html lang="en">
+<head>
+<title> Welcome to Context </title>
+<meta charset="utf-8">
+<style>
+body{
+	font-family: "Gill sans","Times New Roman", Times, serif;
+	background-image: url("IMG_1402.jpg");
+	background-size: 2000px 1930px;
+	font-size: 15pt;
+}
+h1{
+	font-family: "American Typewriter", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1800%;
+	margin-top:2%;
+	text-align:center;
+}
+h2{
+	font-family: "American Typewriter", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 45pt;
+	text-align: center;
+}
+
+.box {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.box :first-child {
+    align-self: center;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+a:visited { 
+	color: black; 
+	text-decoration: none;
+}
+a:hover { 
+	color: orange;
+	text-decoration: none;
+}
+a:active { 
+	color: yellow;
+	text-decoration: none;
+}
+nav {
+	font-family: "Gill sans","Times New Roman", Times, serif;
+}
+
+ul {
+	background: darkorange;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+li {
+	color: #ffffff;
+	background: #99ccff;
+	display: block;
+	float: left;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+  li a {
+	color: #fff;
+}
+li:hover,
+li:focus-within {
+	background: #3333ff;
+	cursor: pointer;
+}
+
+li:focus-within a {
+	outline: none;
+}
+
+ul li ul {
+	background: orange;
+	visibility: hidden;
+	opacity: 0;
+	min-width: 5rem;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 1rem;
+	left: 0;
+	display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+ul li ul li {
+	clear: both;
+	width: 100%;
+}
+section{
+	height: 50px;
+	display: flex;
+	text-align: right
+	justify-content: center;
+	margin-left: 55.5%;
+	flex-direction: column;
+	margin-bottom: 0%;
+}
+.slant{
+	font-size: 45pt;
+	transform: rotate(-7deg)
+             skew(5deg);
+}
+.slanta{
+	font-size: 45pt;
+	transform: rotate(-3deg)
+             skew(10deg);
+}
+
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<nav role="navigation">
+  <ul>
+    <li><a href="#" aria-haspopup="true">Info</a>
+      <ul class="dropdown" aria-label="submenu">
+        <li><a href="#1">The Work</a></li>
+        <li><a href="#2">Contact Us</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<h1 style="margin-bottom:20px; margin-right: 100px;font-weight: 500;"> Context </h1>
+<div style="font-size:27.5px; text-align:center;margin-top:50px;width:30%;margin-left:35%;margin-bottom: 32%;margin-top:0px;">Context revamps, revises and reinvigorates your website 
+texts and press releases, adding power to your messaging, brand impact and credibility. Send us your draft texts or website copy and we'll get back to you within 24 hours with a quote.</div>
+<section style="margin-left: 31%;flex-direction: column;margin-top: 0%;margin-bottom:35px;">
+<h3 id="1" class="slanta"> The Work </h3>
+</section>
+<br>	
+<section>
+<h2 class="slant"> Get Textual Healing </h2>
+</section>
+<div class="box">
+<p style="margin-left: 2.5%; width: 15%; text-align:center; color:white; background-color:#afafaf; margin-top:22.5%;"><a href="https://mushroom-media.co.uk"/>Mushroom Media</a><br>
+<p style="color:white; width: 15%;  text-align:center; background-color:#afafaf; margin-top:22.5%;"><a href="https://frapa.org/"/>FRAPA</a><br>
+<p style="color:white; width: 15%;  text-align:center; background-color:#afafaf; margin-top:22.5%;"><a href="https://www.amsterdam-dance-event.nl/en/"/>ADE</a><br>
+<p style="color:white; width: 15%;  text-align:center; background-color:#afafaf; margin-top:22.5%; margin-right:2.5%"><a href="https://www.getdigital.berlin/"/>Get Digital</a><br>
+</div>
+<h3 style="font-size:225% ;text-align:center; margin-bottom:2.5%; margin-top: 4.5%;"> Who We Are </h3>
+<img src="Jo.jpg" alt= Joanna Stephens width="180" height="220" style="margin-left:16.75%">
+<img src="garygarry.jpeg" alt="Gary Smith" width="180" height="220" style="margin-left:46.5%">
+<div class="box">
+	<div style="width:45%;margin-left:1%;text-align:center;"> Joanna Stephens… <br> …moved into media in the mid-1990s, since when she has worked as a freelance editor, journalist,
+	blogger and feature writer for industry events including MIPCOM, MIPTV, MIDEM, the Cannes Lions International Festival of Creativity, Sportel, the Amsterdam Dance Event,
+	the Monte Carlo Television Festival and the Rose d’Or. She has also written for a range of TV, music and film publications, including World Screen, C21, TBI, TV Europe,
+	TV International, TV Asia, The Musician and Location. Previously, she served as editor-in-chief of Amsterdam-based Roto Smeets' English-language publications,
+	where she worked on a range of business-led titles for, among others, the Dutch foreign-affairs ministry, Hertz and KLM. She is also a partner in Mushroom Media,
+	a publicity and copywriting consultancy service for the entertainment industry, and has presented videos for major brands such as Smart.
+	</div>
+	<div style="width:45%;margin-left:15%;text-align:center;margin-right: 1%;"> Gary Smith…  <br> …writes about the music, TV and advertising industries,
+	specialising in media trends, smart technology, tactical social networking, sport and business strategy. A multilingual (French/Spanish/Dutch) journalist and translator,
+	he contributes to key media-industry events and publications, including the Cannes Lions International Festival of Creativity, MIDEM, MIPTV, MIPCOM, Sportel,
+	the Monte Carlo Television Festival, Location and travel website Wonderlust.com. He has worked for the Amsterdam Dance Event since its inception in 1996 and now oversees
+	and co-ordinates the B2B aspects of ADE’s extensive daytime offer. Smith also works as international programmer for the Brazilian Music Conference and presents videos for
+	major brands such as Smart. He was one of the original writers at Muzic magazine and served as European dance correspondent for Billboard, Music & Media, Fono and Music Business International.	
+ </div>
+ </div>
+ <h3 id="2" style="font-size:225%;font-weight:bold;text-align:center;margin-bottom: 2%"> Contact Context </h3>
+ <div style="text-align: center; border: 1px solid black; width: 20%; margin-left: 40%;margin-bottom: 10px;"> Gary Smith : <br> email:<a href="mailto:geesmeeth@yahoo.com"> geesmeeth@yahoo.com </a> <br> phone: +33.623.824524 </div>
+ <div style="text-align: center; border: 1px solid black; width: 20%; margin-left: 40%;margin-bottom: 3.05%;"> Joanna Stephens : <br> email: <a href="mailto:jo.stephens@btinternet.com">jo.stephens@btinternet.com </a> <br> phone : +44 7779950659 </div>
 </body>
 </html>
